@@ -58,6 +58,7 @@ final class ResettingFormType extends AbstractType
             'data_class'         => $this->class,
             'csrf_token_id'      => 'resetting',
             'translation_domain' => 'NucleosUserBundle',
+            'csrf_protection'    => false
         ]);
     }
 }
